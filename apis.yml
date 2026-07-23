@@ -1,8 +1,23 @@
 aid: axis-network-technology
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/axis-network-technology.png
 name: Axis Network Technology
-description: 'Axis Network Technology is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: deep-tech. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Axis (axisnet.asia) is a Malaysia-based e-commerce enabler, incorporated in 2009, providing
+  an end-to-end managed e-commerce solution that consolidates business digitalization, inventory solutions,
+  automated e-fulfillment, express and cross-border logistics across 98+ countries, e-commerce marketing,
+  multi-marketplace selling, and training via Axis Academy for individuals and SMEs. It was surfaced as
+  a portfolio lead of bessemer-venture-partners and added to the API Evangelist network as a stub; it
+  publishes no public developer API, documentation, or SDKs at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/axis-network-technology/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Deep Tech
+- E-Commerce
+- Logistics
+- Fulfillment
+- Marketplace
+- Malaysia
+- SME
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +43,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/axis-network-technology-domain-security.yml
 - type: Website
   url: https://www.axisnet.asia/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
